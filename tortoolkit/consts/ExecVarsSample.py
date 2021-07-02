@@ -18,7 +18,7 @@ except:
         OWNER_ID = 1331188677
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = "https://mirrordownload.lkhitech8.workers.dev/0:"
+        GD_INDEX_URL = "https://toxix.lkhitech8.workers.dev/"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
