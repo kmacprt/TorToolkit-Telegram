@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "b994bccad6118cd6fb6d091b9bbfe5cf"
+        API_ID = 1971546
+        BOT_TOKEN = "1868290243:AAH5Jf_BV_6odm9TDPQGgQVtbxIH45DaJEU"
+        BASE_URL_OF_BOT = "https://t.me/torrentleechk_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001432480057]
+        OWNER_ID = 1331188677
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://mirrordownload.lkhitech8.workers.dev/0:"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,16 +36,16 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://eypzpggmruxsbq:e48e737a31198ef9ba32b99741c430f48718a1c4ebf47b9f5521e6c8bd088646@ec2-54-163-97-228.compute-1.amazonaws.com:5432/ddru3khfnqmghc"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "fQo0jKbZ"
+        MEGA_UNAME = "kavinduavishka79@gmail.com"
+        MEGA_PASS = "dkkajcmd@0123456"
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
