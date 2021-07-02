@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kmac2-60fd"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kmac2-60fd"
+  template:
+    metadata:
+      labels:
+        app: "kmac2-60fd"
+    spec:
+      containers:
+        - name: "kmac2-60fd"
+          image: "torxic25.azurecr.io/kmac2"
+          ports:
+          - containerPort: 80
